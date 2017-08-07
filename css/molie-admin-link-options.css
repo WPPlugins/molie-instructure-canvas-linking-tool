@@ -1,0 +1,9 @@
+#molielinkoptions{
+	display:none;
+}
+
+.molieoptions{
+	cursor:pointer;
+	cursor:hand;
+	text-decoration:underline;
+}

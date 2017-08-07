@@ -1,0 +1,59 @@
+form#molie_link_form label{
+	float: left;
+	width: 100%;
+	clear: both;
+	padding: 5px 0px;
+}
+
+form#molie_link_form input{
+	float: left;
+	width: 90%;
+	clear: both;
+	padding: 10px;
+	margin: 5px 0px;
+}
+
+div#molie_response{
+	width: 90%;
+	clear: both;
+}
+
+div.canvasData{
+	width: 100%;
+	margin: 5px 0px;
+}
+
+div.canvasURL,
+div.canvasTokens{
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.canvasURL{
+	font-weight: bold;
+}
+
+div.canvasTokens div{
+	width: 100%;
+}
+
+div#molie_previous{
+	display: none;
+}
+
+p#molie_show_previous{
+	width: 100%;
+	clear: both;
+	margin: 5px 0px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+p.token{
+	clear: both;
+}
+
+p.token a{
+	text-decoration: none;
+}

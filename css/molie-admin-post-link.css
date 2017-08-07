@@ -1,0 +1,41 @@
+#molielightbox{
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,0.5);
+	z-index:100000;
+	display:none;
+}
+
+#molielightbox div.holder{
+	background:#fff;
+	height:400px;
+	width:80%;
+	margin:5%;
+	padding:5%;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#molielightbox div.holder div#course_choose{
+	overflow-y:scroll;
+	height:400px;
+	width:100%;
+}
+
+#molielightbox div.holder h2{
+	position:relative;
+	top:65%;
+	text-align:center;
+}
+
+#molielightboxclose{
+	color:#f00;
+	font-weight:bold;
+	cursor:pointer;
+	cursor:hand;
+	float:right;
+}

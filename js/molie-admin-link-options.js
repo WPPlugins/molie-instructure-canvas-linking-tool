@@ -1,0 +1,20 @@
+jQuery(document).ready(
+	function(){
+		jQuery(".molieoptions")
+			.each(
+				function(index,value){
+					jQuery(value)
+						.on("click", function(){
+								if(jQuery("#molielinkoptions").is(":visible")){
+									jQuery("#molielinkoptions")
+										.slideUp(200);
+								}else{
+									jQuery("#molielinkoptions")
+										.slideDown(200);
+								}
+							}
+						)
+					}
+				)
+			}
+		);

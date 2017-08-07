@@ -1,0 +1,78 @@
+form#molie_choose_form li{
+	float: left;
+	width: 90%;
+	clear: both;
+	padding: 10px;
+	margin: 5px 0px;
+	border:1px solid #000;
+	background-color:#FFF;
+}
+
+form#molie_choose_form p,
+form#molie_choose_form h3{
+	float: left;
+	width: 90%;
+	clear: both;
+	text-decoration: underline;
+}
+
+form#molie_choose_form li img{
+	vertical-align: middle;
+	padding-right: 20px;
+}
+
+form#molie_choose_form li input{
+	vertical-align: middle;
+}
+
+form#molie_choose_form span{
+	color:#f00;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+form#molie_choose_form input[type=submit],
+div#molie_calendar input[type=submit]{
+	float: left;
+	width: 93%;
+	clear: both;
+	margin: 10px 0px;
+}
+
+div#importProgress{
+	display: none;
+	background: #fefefe;
+	width: 92%;
+	padding: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+div#importProgressBar{
+	background: #0f0;
+	width: 0px;
+	display: block;
+	height: 40px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+form#molie_choose_form span.pageLinked{
+	color:#f88;
+}
+
+div#molie_roster form input[type=submit]{
+	width: 100%;
+}
+
+div#molie_roster{
+	width: 92.75%;
+    margin: 1% 0%;
+}
